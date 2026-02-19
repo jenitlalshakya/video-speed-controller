@@ -34,7 +34,7 @@
 
 - **Increase Speed**: configurable in the popup (default key `]`)
 - **Decrease Speed**: configurable in the popup (default key `[`)
-- **Fixed Speed**: configurable in the popup (default key `G`)
+- **Fixed Speed**: configurable in the popup (default key `G`, not configurable)
 - **Reset Speed**: fixed value (`1`) (default key `R`, not configurable)
 
 ## Permissions
