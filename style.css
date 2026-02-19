@@ -1,0 +1,92 @@
+/* Popup base */
+.popup {
+    font-family: Arial, sans-serif;
+    width: 220px;
+    padding: 10px;
+}
+
+.popup h3 {
+    margin-top: 0;
+}
+
+.popup label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.popup input {
+    width: 100%;
+    margin-top: 4px;
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 6px;
+}
+
+/* Toggle row */
+.toggle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+/* Label styling */
+.toggle-label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Switch container */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 2.5em;
+    height: 1.4em;
+}
+
+/* Hide default checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Slider background */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #b0b0b0;
+    border: 1px solid #b0b0b0;
+    transition: 0.4s;
+    border-radius: 32px;
+}
+
+/* Slider knob */
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 1.2rem;
+    width: 1.2rem;
+    left: 0.05em;
+    bottom: 0.05em;
+    background-color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #b0b0b0;
+    transition: transform 0.25s ease-in-out;
+}
+
+/* Checked state */
+.switch input:checked + .slider {
+    background-color: #222;
+    border-color: #222;
+}
+
+.switch input:checked + .slider::before {
+    transform: translateX(1.5em);
+    outline-color: #181818;
+}

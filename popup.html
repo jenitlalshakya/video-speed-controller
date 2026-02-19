@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="popup">
+    <h3>Video Speed Controller</h3>
+
+    <label>
+        Speed Step:
+        <input type="number" id="step" step="0.1" min="0.1">
+    </label>
+
+    <label>
+        Reset Speed (R):
+        <input type="number" id="resetSpeed" value="1" readonly>
+    </label>
+
+    <label>
+        Fixed Speed (G):
+        <input type="number" id="fixedSpeed" step="0.1" min="0.1">
+    </label>
+
+    <h4>Keyboard Shortcuts</h4>
+
+    <label>
+        Increase Speed:
+        <input id="increaseKey">
+    </label>
+
+    <label>
+        Decrease Speed:
+        <input id="decreaseKey">
+    </label>
+
+    <!-- Toggle Switch -->
+    <div class="toggle-row">
+        <span class="toggle-label">Enable Extension</span>
+
+        <label class="switch">
+            <input type="checkbox" id="enabled">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <button id="save">Save</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
