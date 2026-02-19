@@ -13,7 +13,7 @@
 
 ## Installation
 
-1. **Download the extension** folder from this repository.
+1. **[Download the extension as a ZIP file](https://github.com/jenitlalshakya/video-speed-controller/archive/refs/heads/main.zip)**
 2. Open your browser and go to the **Extensions** page:
    - Chrome: `chrome://extensions/`
    - Edge: `edge://extensions/`
