@@ -25,7 +25,7 @@
 ## Usage
 
 1. Click the extension icon in the toolbar to open the popup.
-2. Configure your **Speed Step**, **Reset Speed**, and **Fixed Speed** values.
+2. Configure your **Speed Step**, **Increase / Decrease Speed Key**, and **Fixed Speed** values.
 3. Set your preferred **keyboard shortcuts** for increasing or decreasing speed.
 4. Toggle the extension **on or off** as needed.
 5. Play any HTML5 video—use the popup or shortcuts to control playback speed in real-time.
