@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     const DEFAULTS = {
         step: 0.25,
-        fixedSpeed: 3.0,
+        fixedSpeed: 2.0,
         increaseKey: "]",
         decreaseKey: "[",
-        enabled: false
+        enabled: true
     };
 
     const fields = Object.keys(DEFAULTS);

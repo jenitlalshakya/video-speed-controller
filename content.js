@@ -1,10 +1,10 @@
 // DEFAULT SETTINGS
 const DEFAULT_SETTINGS = {
     step: 0.25,
-    fixedSpeed: 3.0,
+    fixedSpeed: 2.0,
     increaseKey: "]",
     decreaseKey: "[",
-    enabled: false
+    enabled: true
 };
 
 let settings = { ...DEFAULT_SETTINGS };
