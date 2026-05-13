@@ -6,6 +6,7 @@ const DEFAULT_SETTINGS = {
     decreaseKey: "[",
     enabled: true
 };
+const RESERVED_KEYS = ["j", "k", "l", "space"];
 
 let settings = { ...DEFAULT_SETTINGS };
 let currentSpeed = 1.0;
@@ -161,7 +162,7 @@ document.addEventListener("keydown", e => {
     if (!settings.enabled) return;
     if (["INPUT", "TEXTAREA"].includes(e.target.tagName)) return;
 
-    const key = e.key.toLowerCase();
+    const key = e.key === " " ? "space" : e.key.toLowerCase();
 
     if (key === settings.increaseKey.toLowerCase()) {
         applySpeed(currentSpeed + settings.step);
@@ -177,6 +178,10 @@ document.addEventListener("keydown", e => {
 
     if (key === "g") {
         applySpeed(settings.fixedSpeed);
+    }
+
+    if (RESERVED_KEYS.includes(key)) {
+        showOverlay(currentSpeed);
     }
 });
 

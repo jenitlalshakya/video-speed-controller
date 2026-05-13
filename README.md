@@ -37,6 +37,10 @@
 - **Fixed Speed**: configurable in the popup (default key `G`, not configurable)
 - **Reset Speed**: fixed value (`1`) (default key `R`, not configurable)
 
+## Notes
+
+- `J`, `K`, `L`, and `Space` are reserved for built-in video controls and cannot be used as custom speed control keys.
+
 ## Permissions
 
 - `storage` – to save your speed settings and keyboard shortcuts.
