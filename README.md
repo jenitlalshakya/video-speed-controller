@@ -39,7 +39,7 @@
 
 ## Notes
 
-- `J`, `K`, `L`, and `Space` are reserved for built-in video controls and cannot be used as custom speed control keys.
+- `J`, `K`, `L`, `Space`, `ArrowUp`, `ArrowDown`, `ArrowLeft`, and `ArrowRight` are reserved for built-in video controls and cannot be used as custom speed control keys.
 
 ## Permissions
 

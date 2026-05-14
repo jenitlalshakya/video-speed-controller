@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         decreaseKey: "[",
         enabled: true
     };
-    const RESERVED_KEYS = ["j", "k", "l", "space"];
+    const RESERVED_KEYS = ["j", "k", "l", "space", "arrowup", "arrowdown", "arrowleft", "arrowright"];
     const fields = Object.keys(DEFAULTS);
 
     function normalizeKey(key) {
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 value = normalizeKey(value);
 
                 if (RESERVED_KEYS.includes(value)) {
-                    alert(`"${value}" is reserved for video controls (J, K, L, Space).`);
+                    alert(`"${value}" is reserved for video controls (J, K, L, Space, ArrowUp, ArrowDown, ArrowLeft, ArrowRight).`);
                     hasError = true;
                     return;
                 }
