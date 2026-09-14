@@ -115,7 +115,7 @@ function showOverlay(speed) {
     clearTimeout(overlay.hideTimeout);
     overlay.hideTimeout = setTimeout(() => {
         overlay.style.opacity = '0';
-    }, 800);
+    }, 3000);
 }
 
 let mouseMoveTimeout = null;
@@ -137,7 +137,7 @@ function attachMouseListeners(video) {
             if (overlay) {
                 overlay.style.opacity = '0';
             }
-        }, 1000);
+        }, 3000);
     });
 
     // LISTEN WHEN MOUSE LEAVE THE VIDEO CONTAINER AND DIABLE OVERLAY VIEW
@@ -180,7 +180,7 @@ document.addEventListener("keydown", e => {
         applySpeed(settings.fixedSpeed);
     }
 
-    if (RESERVED_KEYS.includes(key)) {
+    if (RESERVED_KEYS.includes(key) || /^[0-9]$/.test(key)) {
         showOverlay(currentSpeed);
     }
 });
