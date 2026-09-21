@@ -6,7 +6,7 @@ const DEFAULT_SETTINGS = {
     decreaseKey: "[",
     enabled: true
 };
-const RESERVED_KEYS = ["j", "k", "l", "space", "arrowup", "arrowdown", "arrowleft", "arrowright"];
+const RESERVED_KEYS = ["j", "k", "l", "t", "c", "f", "m", "i", "space", "arrowup", "arrowdown", "arrowleft", "arrowright"];
 
 let settings = { ...DEFAULT_SETTINGS };
 let currentSpeed = 1.0;

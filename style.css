@@ -19,10 +19,26 @@
     margin-top: 4px;
 }
 
+.error {
+    display: block;
+    color: #d93025;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.invalid {
+    border: 1px solid #d93025;
+}
+
 .popup button {
     width: 100%;
     margin-top: 12px;
     padding: 6px;
+}
+
+#save:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 /* Toggle row */

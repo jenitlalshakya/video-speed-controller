@@ -39,7 +39,8 @@
 
 ## Notes
 
-- `J`, `K`, `L`, `Space`, `ArrowUp`, `ArrowDown`, `ArrowLeft`, and `ArrowRight` are reserved for built-in video controls and cannot be used as custom speed control keys.
+- `J`, `K`, `L`, `T`, `C`, `F`, `M`, `I`, `Space`, `ArrowUp`, `ArrowDown`, `ArrowLeft`, `ArrowRight`, and `0-9` are reserved for built-in video controls and cannot be used as custom speed control keys.
+- `R`, and `G` are reserved keys specified by the extension for the speed controller and cannot be used as custom speed control keys.
 
 ## Permissions
 
@@ -52,3 +53,7 @@ Contributions are welcome! Submit issues, feature requests, or pull requests to 
 ## License
 
 This project is licensed under the MIT License.
+
+## Author
+**Jenit Lal Shakya**
+shakyajenit@gmail.com

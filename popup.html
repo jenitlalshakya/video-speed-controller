@@ -26,12 +26,14 @@
 
     <label>
         Increase Speed:
-        <input id="increaseKey">
+        <input id="increaseKey" maxlength="1">
+        <span id="increaseKeyError" class="error"></span>
     </label>
 
     <label>
         Decrease Speed:
-        <input id="decreaseKey">
+        <input id="decreaseKey" maxlength="1">
+        <span id="decreaseKeyError" class="error"></span>
     </label>
 
     <!-- Toggle Switch -->
@@ -44,7 +46,7 @@
         </label>
     </div>
 
-    <button id="save">Save</button>
+    <button id="save" disabled>Save</button>
 
     <script src="popup.js"></script>
 </body>
